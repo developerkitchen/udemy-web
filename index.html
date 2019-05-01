@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <title>Developer Kitchen Blogs Tema</title>
+  <title>DKlog Blogs Tema</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <style type="text/css">
-  		.yazi { background-color: #e7e7e7; padding: 10px; box-shadow: 5px 10px #888888; margin-bottom: 20px; }
-  		.baslik { font-size: 26px; }
+  		.yazi { background-color: #f8f8f8; padding: 10px; border-radius: 6px; margin-bottom: 20px; }
+  		.baslik { font-size: 22px; margin: 0px; padding: 0px; margin-bottom: 10px; }
   		.resim { width: 100%; height: auto; object-fit: cover; }
-  		footer { background-color: gray; min-height: 100px; }
+  		footer { background-color: #e7e7e7; min-height: 100px; padding: 40px 50px; }
   		#footer {  }
+  		.sosyalmedya { font-size: 30px; margin-right: 10px; }
+  		.jumbotron { background-color: #f8f8f8 !important;  }
   </style>
 </head>
 <body>
 
+<!-- Üst Menü start -->
 <nav class="navbar navbar-default">
   <div class="container container-fluid">
     <div class="navbar-header">
@@ -29,26 +33,23 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li class="active"><a href="#">AnaSayfa</a></li>
+        <li><a href="#">Hakkında</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">İletişim</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
       </ul>
     </div>
   </div>
 </nav>
+<!-- Üst Menü finish -->
 
+<!-- Üst Tanıtım start -->
 <div class="container">
   <div class="jumbotron">
     <h1>DKlog Wordpress Tema</h1> 
@@ -56,8 +57,9 @@
     responsive, mobile-first projects on the web.</p> 
   </div>
 </div>
+<!-- Üst Tanıtım finish -->
 
-
+<!-- Blog Yazıları start -->
 <div class="container">
 	<div class="row">
 		<div class="col-sm-3">
@@ -111,13 +113,44 @@
 			</article>
 		</div>
 	</div>
-
 </div>
+<!-- Blog Yazıları finish -->
 
+
+<!-- Footer start -->
 <footer>
-	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<h2>Hızlı Menü</h2>
+				<ul class="hizli-menu">
+					<li><a href="#">AnaSayfa</a></li>
+					<li><a href="#">Hakkında</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">İletişim</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<h2>Son Yorumlar</h2>
+				<ul class="sonyorumlar">
+					<li><a href="#">Bu bir yorumdur.</a></li>
+					<li><a href="#">Bu bir yorumdur.</a></li>
+					<li><a href="#">Bu bir yorumdur.</a></li>
+					<li><a href="#">Bu bir yorumdur.</a></li>
+					<li><a href="#">Bu bir yorumdur.</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<h2>Sosyal Medya</h2>
+				<a href="#"><i class="sosyalmedya fab fa-facebook-f"></i></a>
+				<a href="#"><i class="sosyalmedya fab fa-twitter"></i></a>
+				<a href="#"><i class="sosyalmedya fab fa-youtube"></i></a>
+				<a href="#"><i class="sosyalmedya fab fa-instagram"></i></a>
+			</div>
+		</div>
+	</div>
 </footer>
-
+<!-- Footer finish -->
 
 </body>
 </html>
